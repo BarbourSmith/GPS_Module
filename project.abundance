@@ -19,6 +19,18 @@
       ]
     },
     {
+      "atomType": "Circle",
+      "x": 0.6768447837150127,
+      "y": 0.6666666666666666,
+      "uniqueID": "id-16",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
       "atomType": "Molecule",
       "x": 0.17557251908396945,
       "y": 0.42807017543859655,
@@ -89,18 +101,6 @@
       ],
       "allConnectors": [],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Circle",
-      "x": 0.6768447837150127,
-      "y": 0.6666666666666666,
-      "uniqueID": "id-16",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 10
-        }
-      ]
     }
   ],
   "allConnectors": [
