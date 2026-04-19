@@ -39,13 +39,17 @@
         {
           "name": "Shape 4",
           "ioValue": null
+        },
+        {
+          "name": "Shape 5",
+          "ioValue": null
         }
       ]
     },
     {
       "atomType": "Move",
-      "x": 0.8023748939779474,
-      "y": 0.7239766081871344,
+      "x": 0.7090754877014418,
+      "y": 0.7380116959064327,
       "uniqueID": "id-84",
       "ioValues": [
         {
@@ -203,8 +207,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.31636980491942324,
-      "y": 0.8947368421052632,
+      "x": 0.1823579304495335,
+      "y": 0.8935672514619882,
       "uniqueID": "id-12",
       "name": "Compass",
       "topLevel": false,
@@ -357,8 +361,8 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.4020356234096692,
-          "y": 0.6666666666666666,
+          "x": 0.14927905004240882,
+          "y": 0.5204678362573099,
           "uniqueID": "id-74",
           "ioValues": [
             {
@@ -370,8 +374,8 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.6251060220525869,
-          "y": 0.6865497076023391,
+          "x": 0.4223918575063613,
+          "y": 0.6093567251461989,
           "uniqueID": "id-77",
           "ioValues": [
             {
@@ -383,6 +387,22 @@
               "ioValue": -3
             }
           ]
+        },
+        {
+          "atomType": "Tag",
+          "x": 0.5971162001696353,
+          "y": 0.8725146198830408,
+          "uniqueID": "id-179",
+          "name": "Plastic",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tags": [
+            "Plastic"
+          ]
         }
       ],
       "allConnectors": [
@@ -392,8 +412,13 @@
           "ap2ID": "id-77"
         },
         {
-          "ap2Name": "number or geometry",
+          "ap2Name": "geometry",
           "ap1ID": "id-77",
+          "ap2ID": "id-179"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-179",
           "ap2ID": "id-72"
         }
       ],
@@ -494,6 +519,46 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.40712468193384227,
+      "y": 0.8654970760233918,
+      "uniqueID": "id-172",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "yDist",
+          "ioValue": -30
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "ExtractTag",
+      "x": 0.910941475826972,
+      "y": 0.8035087719298246,
+      "uniqueID": "id-182",
+      "name": "Extract Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tag": "Plastic",
+      "tagIndex": 0
     }
   ],
   "allConnectors": [
@@ -501,6 +566,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-81",
       "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-81",
+      "ap2ID": "id-182"
     },
     {
       "ap2Name": "Shape 1",
@@ -516,6 +586,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-8",
       "ap2ID": "id-158"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-12",
+      "ap2ID": "id-172"
     },
     {
       "ap2Name": "geometry",
@@ -545,6 +620,11 @@
     {
       "ap2Name": "Shape 4",
       "ap1ID": "id-165",
+      "ap2ID": "id-81"
+    },
+    {
+      "ap2Name": "Shape 5",
+      "ap1ID": "id-172",
       "ap2ID": "id-81"
     }
   ],
