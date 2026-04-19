@@ -19,9 +19,57 @@
       ]
     },
     {
+      "atomType": "Assembly",
+      "x": 0.7675996607294316,
+      "y": 0.45614035087719296,
+      "uniqueID": "id-81",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 4",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.8023748939779474,
+      "y": 0.7239766081871344,
+      "uniqueID": "id-84",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 1
+        }
+      ]
+    },
+    {
       "atomType": "Molecule",
-      "x": 0.17557251908396945,
-      "y": 0.42807017543859655,
+      "x": 0.11620016963528414,
+      "y": 0.2725146198830409,
       "uniqueID": "id-4",
       "name": "GPS",
       "topLevel": false,
@@ -87,8 +135,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.2637828668363019,
-      "y": 0.5321637426900584,
+      "x": 0.10771840542832908,
+      "y": 0.567251461988304,
       "uniqueID": "id-8",
       "name": "ESP32",
       "topLevel": false,
@@ -113,11 +161,12 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 28
+              "ioValue": 56
             },
             {
               "name": "y length",
-              "ioValue": 15
+              "ioValue": 30,
+              "currentEquation": "30"
             }
           ]
         },
@@ -154,8 +203,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.14418999151823578,
-      "y": 0.639766081871345,
+      "x": 0.31636980491942324,
+      "y": 0.8947368421052632,
       "uniqueID": "id-12",
       "name": "Compass",
       "topLevel": false,
@@ -221,8 +270,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.2256149279050042,
-      "y": 0.7415204678362572,
+      "x": 0.2162849872773537,
+      "y": 0.7251461988304093,
       "uniqueID": "id-50",
       "name": "GPS Antenna",
       "topLevel": false,
@@ -267,8 +316,7 @@
             },
             {
               "name": "height",
-              "ioValue": 4,
-              "currentEquation": "4"
+              "ioValue": 4
             }
           ]
         }
@@ -289,8 +337,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.4266327396098388,
-      "y": 0.8818713450292397,
+      "x": 0.5818490245971162,
+      "y": 0.886549707602339,
       "uniqueID": "id-70",
       "name": "Outline",
       "topLevel": false,
@@ -315,7 +363,8 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 65
+              "ioValue": 100,
+              "currentEquation": "100"
             }
           ]
         },
@@ -331,8 +380,7 @@
             },
             {
               "name": "height",
-              "ioValue": -3,
-              "currentEquation": "-3"
+              "ioValue": -3
             }
           ]
         }
@@ -352,17 +400,82 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Assembly",
-      "x": 0.6743002544529263,
-      "y": 0.6035087719298246,
-      "uniqueID": "id-81",
-      "ioValues": []
+      "atomType": "Rotate",
+      "x": 0.3265479219677693,
+      "y": 0.2923976608187134,
+      "uniqueID": "id-145",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
     },
     {
       "atomType": "Move",
-      "x": 0.8600508905852416,
-      "y": 0.7508771929824561,
-      "uniqueID": "id-84",
+      "x": 0.5411365564037319,
+      "y": 0.27836257309941514,
+      "uniqueID": "id-151",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 15
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.36980491942323995,
+      "y": 0.5368421052631579,
+      "uniqueID": "id-158",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 25
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.5089058524173028,
+      "y": 0.7157894736842105,
+      "uniqueID": "id-165",
       "ioValues": [
         {
           "name": "geometry",
@@ -383,7 +496,58 @@
       ]
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-81",
+      "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-84",
+      "ap2ID": "id-81"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4",
+      "ap2ID": "id-145"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-8",
+      "ap2ID": "id-158"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-50",
+      "ap2ID": "id-165"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-70",
+      "ap2ID": "id-84"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-145",
+      "ap2ID": "id-151"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-151",
+      "ap2ID": "id-81"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-158",
+      "ap2ID": "id-81"
+    },
+    {
+      "ap2Name": "Shape 4",
+      "ap1ID": "id-165",
+      "ap2ID": "id-81"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
