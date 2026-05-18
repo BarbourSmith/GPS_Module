@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.7675996607294316,
-      "y": 0.45614035087719296,
+      "x": 0.7678571428571428,
+      "y": 0.47632311977715874,
       "uniqueID": "id-81",
       "ioValues": [
         {
@@ -72,8 +72,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.3265479219677693,
-      "y": 0.2923976608187134,
+      "x": 0.328042328042328,
+      "y": 0.28969359331476324,
       "uniqueID": "id-145",
       "ioValues": [
         {
@@ -120,8 +120,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.36980491942323995,
-      "y": 0.5368421052631579,
+      "x": 0.37037037037037035,
+      "y": 0.5153203342618384,
       "uniqueID": "id-158",
       "ioValues": [
         {
@@ -144,8 +144,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5089058524173028,
-      "y": 0.7157894736842105,
+      "x": 0.5066137566137566,
+      "y": 0.7019498607242339,
       "uniqueID": "id-165",
       "ioValues": [
         {
@@ -204,6 +204,36 @@
       ],
       "tag": "Plastic",
       "tagIndex": 0
+    },
+    {
+      "atomType": "Export",
+      "x": 0.9510582010582012,
+      "y": 0.7353760445682451,
+      "uniqueID": "id-275",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "GPS_Module",
+          "currentEquation": "GPS_Module"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "GPS_Module"
     },
     {
       "atomType": "Molecule",
@@ -408,8 +438,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.2162849872773537,
-      "y": 0.7251461988304093,
+      "x": 0.21494708994708994,
+      "y": 0.7103064066852367,
       "uniqueID": "id-50",
       "name": "GPS Antenna",
       "topLevel": false,
@@ -558,34 +588,28 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Export",
-      "x": 0.9510582010582012,
-      "y": 0.7353760445682451,
-      "uniqueID": "id-275",
-      "ioValues": [
+      "atomType": "Molecule",
+      "x": 0.6812169312169312,
+      "y": 0.16991643454039,
+      "uniqueID": "id-373",
+      "name": "Molecule",
+      "topLevel": false,
+      "allAtoms": [
         {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STL",
-          "currentEquation": "STL"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "GPS_Module",
-          "currentEquation": "GPS_Module"
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-375",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
         }
       ],
-      "type": null,
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "GPS_Module"
+      "allConnectors": [],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
