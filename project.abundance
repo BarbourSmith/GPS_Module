@@ -98,6 +98,51 @@
       "tagIndex": 0
     },
     {
+      "atomType": "Export",
+      "x": 0.7857142857142857,
+      "y": 0.6991643454038997,
+      "uniqueID": "id-1457",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Lower Half",
+          "currentEquation": "Lower Half"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Lower Half"
+    },
+    {
+      "atomType": "ExtractTag",
+      "x": 0.7857142857142857,
+      "y": 0.25348189415041783,
+      "uniqueID": "id-1463",
+      "name": "Extract Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tag": "Not Keep Out",
+      "tagIndex": 0
+    },
+    {
       "atomType": "Molecule",
       "x": 0.20833333333333334,
       "y": 0.3259052924791086,
@@ -930,6 +975,102 @@
             {
               "name": "Shape 3",
               "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.18518518518518517,
+          "y": 0.713091922005571,
+          "uniqueID": "id-1431",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": -90
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.4404761904761905,
+          "y": 0.7158774373259054,
+          "uniqueID": "id-1437",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 34
+            },
+            {
+              "name": "yDist",
+              "ioValue": 15
+            },
+            {
+              "name": "zDist",
+              "ioValue": -9
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.3201058201058201,
+          "y": 0.6824512534818942,
+          "uniqueID": "id-1443",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 180
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.4662698412698413,
+          "y": 0.8941504178272981,
+          "uniqueID": "id-1450",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 34
+            },
+            {
+              "name": "yDist",
+              "ioValue": -15
+            },
+            {
+              "name": "zDist",
+              "ioValue": -9
             }
           ]
         },
@@ -3363,108 +3504,6 @@
             }
           ],
           "fileTypeVersion": 1
-        },
-        {
-          "atomType": "Rotate",
-          "x": 0.18518518518518517,
-          "y": 0.713091922005571,
-          "uniqueID": "id-1431",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "x-axis degrees",
-              "ioValue": 0,
-              "currentEquation": "0"
-            },
-            {
-              "name": "y-axis degrees",
-              "ioValue": -90,
-              "currentEquation": "-90"
-            },
-            {
-              "name": "z-axis degrees",
-              "ioValue": 0,
-              "currentEquation": "0"
-            }
-          ]
-        },
-        {
-          "atomType": "Move",
-          "x": 0.4404761904761905,
-          "y": 0.7158774373259054,
-          "uniqueID": "id-1437",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 34
-            },
-            {
-              "name": "yDist",
-              "ioValue": 15
-            },
-            {
-              "name": "zDist",
-              "ioValue": -9
-            }
-          ]
-        },
-        {
-          "atomType": "Rotate",
-          "x": 0.3201058201058201,
-          "y": 0.6824512534818942,
-          "uniqueID": "id-1443",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "x-axis degrees",
-              "ioValue": 180,
-              "currentEquation": "180"
-            },
-            {
-              "name": "y-axis degrees",
-              "ioValue": 0
-            },
-            {
-              "name": "z-axis degrees",
-              "ioValue": 0
-            }
-          ]
-        },
-        {
-          "atomType": "Move",
-          "x": 0.4662698412698413,
-          "y": 0.8941504178272981,
-          "uniqueID": "id-1450",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 34,
-              "currentEquation": "34"
-            },
-            {
-              "name": "yDist",
-              "ioValue": -15,
-              "currentEquation": "-15"
-            },
-            {
-              "name": "zDist",
-              "ioValue": -9
-            }
-          ]
         }
       ],
       "allConnectors": [
@@ -3472,16 +3511,6 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-1003",
           "ap2ID": "id-685"
-        },
-        {
-          "ap2Name": "Shape 1",
-          "ap1ID": "id-687",
-          "ap2ID": "id-1003"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-1318",
-          "ap2ID": "id-1431"
         },
         {
           "ap2Name": "geometry",
@@ -3507,54 +3536,19 @@
           "ap2Name": "Shape 3",
           "ap1ID": "id-1450",
           "ap2ID": "id-1003"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-687",
+          "ap2ID": "id-1003"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-1318",
+          "ap2ID": "id-1431"
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Export",
-      "x": 0.7857142857142857,
-      "y": 0.6991643454038997,
-      "uniqueID": "id-1457",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STL",
-          "currentEquation": "STL"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Lower Half",
-          "currentEquation": "Lower Half"
-        }
-      ],
-      "type": null,
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Lower Half"
-    },
-    {
-      "atomType": "ExtractTag",
-      "x": 0.7857142857142857,
-      "y": 0.25348189415041783,
-      "uniqueID": "id-1463",
-      "name": "Extract Tag",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "tag": "Not Keep Out",
-      "tagIndex": 0
     }
   ],
   "allConnectors": [
@@ -3584,6 +3578,11 @@
       "ap2ID": "id-1457"
     },
     {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-1463",
+      "ap2ID": "id-2"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-377",
       "ap2ID": "id-535"
@@ -3592,11 +3591,6 @@
       "ap2Name": "Shape 1",
       "ap1ID": "id-683",
       "ap2ID": "id-541"
-    },
-    {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-1463",
-      "ap2ID": "id-2"
     }
   ],
   "unitsKey": "MM",
